@@ -73,7 +73,7 @@ import Link from "next/link";
 
 const ProductCard = ({ product }: { product: Product }) => {
   return (
-    <div className="border border-gray-300 overflow-hidden w-[300px] group text-sm">
+    <div className=" overflow-hidden w-[300px] group text-sm">
       <div className="overflow-hidden rounded relative">
         {product?.image && (
           <Link href={`/product/${product?.slug?.current}`}>
