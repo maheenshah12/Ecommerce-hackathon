@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
-import Image from "next/image";
-import vector from "@/app/assets/Vector.png";
+// import Image from "next/image";
+// import vector from "@/app/assets/Vector.png";
 import { FaAngleDown } from "react-icons/fa";
 import { MdOutlineAccountCircle } from "react-icons/md";
 import { FaSearch } from "react-icons/fa";
@@ -13,6 +13,7 @@ import { ClerkLoaded, UserButton } from "@clerk/nextjs";
 // import { SignedIn } from "@clerk/clerk-react";
 import { SignedIn } from "@clerk/nextjs";
 import { SignInButton } from "@clerk/nextjs";
+import { RxCross2 } from "react-icons/rx";
 
 
 const Header = async () => {
@@ -32,7 +33,8 @@ const Header = async () => {
          </p>
 
          <div className="hidden lg:block w-[20px] h-[20px] mr-[90px]">
-           <Image src={ vector} alt="Close Icon hover:shadow-lg " />
+           {/* <Image src={ vector} alt="Close Icon hover:shadow-lg " /> */}
+           <RxCross2 />
          </div>
        
        </div>
