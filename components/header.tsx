@@ -44,7 +44,7 @@ const Header = async () => {
          </div>
 
          {/* for logo */}
-         <div className="font-extrabold font-font text-2xl lg:text-[32px] mb-2 mr-3 lg:mr-10">
+         <div className="font-extrabold font-font text-2xl lg:text-[32px] mb-2 mr-3 ml-4 lg:mr-10">
            <Link href={"/"}>SHOP.CO</Link>
          </div>
          {/* className */}
