@@ -32,7 +32,7 @@ const Header = async () => {
          </p>
 
          <div className="hidden lg:block w-[20px] h-[20px] mr-[90px]">
-           <Image src={vector} alt="Close Icon hover:shadow-lg " />
+           <Image src={ vector} alt="Close Icon hover:shadow-lg " />
          </div>
        
        </div>
