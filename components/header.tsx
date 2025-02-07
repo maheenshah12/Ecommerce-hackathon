@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
-import vector from "@/app/assets/vector.png";
+import vector from "@/app/assets/Vector.png";
 import { FaAngleDown } from "react-icons/fa";
 import { MdOutlineAccountCircle } from "react-icons/md";
 import { FaSearch } from "react-icons/fa";
